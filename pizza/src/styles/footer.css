@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  padding: 5px;
+}
+
+.socialMedia svg {
+  margin: 20px;
+  font-size: 50px;
+}

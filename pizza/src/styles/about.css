@@ -1,0 +1,14 @@
+.content-top {
+  background-image: url("../assets/pexels-narda-yescas-1566837.jpg");
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+.content p {
+  padding: 50px !important;
+}

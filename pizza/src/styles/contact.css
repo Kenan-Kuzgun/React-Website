@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-side {
+  background-image: url("../assets/pexels-on-shot-2788792.jpg");
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px 50px;
+}
+
+.right-side {
+  width: 50%;
+  margin: 80px 100px;
+}
+.label {
+  margin: 20px 0 !important;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .contact {
+    flex-direction: column;
+    .left-side {
+      display: none;
+    }
+  }
+}
